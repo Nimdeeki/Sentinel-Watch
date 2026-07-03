@@ -5,7 +5,7 @@ Army, Navy, Air Force, exam prep (CDS/OTA), and current affairs. Built as the
 Week 4 capstone project for the Developers Arena Web Development Internship.
 
 **Live site:** _add your GitHub Pages link here after deploying_
-**Repo:** https://github.com/nimdeeki/sentinel-watch 
+**Repo:** https://github.com/nimdeeki/Sentinel-watch 
 
 ## Project overview
 
