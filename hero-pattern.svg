@@ -1,0 +1,5 @@
+<svg viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Decorative topographic line pattern">
+<rect width="400" height="120" fill="none"/>
+<path d="M0 100 Q100 60 200 90 T400 70" fill="none" stroke="#A99A6B" stroke-width="1.5" opacity="0.6"/>
+<path d="M0 80 Q100 40 200 70 T400 50" fill="none" stroke="#A99A6B" stroke-width="1.5" opacity="0.4"/>
+</svg>

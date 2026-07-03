@@ -1,0 +1,7 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mountain ridge with a flag marker">
+<rect width="400" height="250" fill="#A99A6B"/>
+<polygon points="0,200 90,90 150,160 220,60 300,180 400,110 400,250 0,250" fill="#F2EEE1"/>
+<polygon points="0,200 90,90 150,160 220,60 300,180 400,110 400,250 0,250" fill="#5C6B63" opacity="0.35"/>
+<line x1="220" y1="60" x2="220" y2="20" stroke="#1C1F17" stroke-width="3"/>
+<polygon points="220,20 260,30 220,40" fill="#B23A24"/>
+</svg>

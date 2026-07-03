@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articles — Sentinel Watch</title>
+  <meta name="description" content="Browse all Sentinel Watch dispatches: Army, Navy, Air Force, exam prep and current affairs, filterable by category.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <span class="brand__mark">SENTINEL WATCH</span>
+        <span class="brand__tag">Field Notes for Aspirants</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="articles.html" aria-current="page">Articles</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="wrap">
+      <p class="eyebrow">Archive</p>
+      <h1>All Dispatches</h1>
+      <p class="hero__lede" style="margin-bottom:2rem;">Filter by sector to find what you need — exam strategy, service life, or current affairs for your GK prep.</p>
+
+      <div class="filters" role="group" aria-label="Filter articles by category">
+        <button class="filter-btn" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter-btn" data-filter="Army" aria-pressed="false">Army</button>
+        <button class="filter-btn" data-filter="Navy" aria-pressed="false">Navy</button>
+        <button class="filter-btn" data-filter="Air Force" aria-pressed="false">Air Force</button>
+        <button class="filter-btn" data-filter="Exam Prep" aria-pressed="false">Exam Prep</button>
+        <button class="filter-btn" data-filter="Current Affairs" aria-pressed="false">Current Affairs</button>
+      </div>
+
+      <p id="resultCount" class="footer-meta" style="margin-bottom:1rem;" aria-live="polite">Showing 6 of 6 dispatches</p>
+
+      <div class="card-grid" id="articleGrid">
+
+        <article class="card" data-category="Exam Prep">
+          <div class="card__media">
+            <img src="images/article-cds-strategy.svg" alt="Illustration of an exam paper with a compass and checklist" width="400" height="250" loading="lazy">
+          </div>
+          <div class="card__body">
+            <p class="card__meta"><span class="tag">Exam Prep</span><span>DSP-001 · 5 min read</span></p>
+            <h3>CDS 2026: Exam Pattern &amp; Strategy Breakdown</h3>
+            <p class="card__excerpt">A sector-by-sector look at the revised CDS paper with a week-by-week prep plan for English, GK and Maths.</p>
+            <a class="card__link" href="#">Read dispatch →</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="Army">
+          <div class="card__media">
+            <img src="images/article-nda-life.svg" alt="Illustration of cadet's boots and sunrise over a parade ground" width="400" height="250" loading="lazy">
+          </div>
+          <div class="card__body">
+            <p class="card__meta"><span class="tag">Army</span><span>DSP-002 · 6 min read</span></p>
+            <h3>Life at NDA: A Day in the Cadet's Boots</h3>
+            <p class="card__excerpt">0500 hours to lights-out — an hour-by-hour account of daily routine at the National Defence Academy.</p>
+            <a class="card__link" href="#">Read dispatch →</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="Current Affairs">
+          <div class="card__media">
+            <img src="images/article-republic-day.svg" alt="Illustration of a parade formation with tricolour bunting" width="400" height="250" loading="lazy">
+          </div>
+          <div class="card__body">
+            <p class="card__meta"><span class="tag">Current Affairs</span><span>DSP-003 · 4 min read</span></p>
+            <h3>Republic Day 2026: Parade Highlights</h3>
+            <p class="card__excerpt">Tri-services contingents and this year's tableaux — what to watch for and why it matters for GK.</p>
+            <a class="card__link" href="#">Read dispatch →</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="Navy">
+          <div class="card__media">
+            <img src="images/article-naval-aviation.svg" alt="Illustration of a fighter jet silhouette on a carrier deck" width="400" height="250" loading="lazy">
+          </div>
+          <div class="card__body">
+            <p class="card__meta"><span class="tag">Navy</span><span>DSP-004 · 5 min read</span></p>
+            <h3>Naval Aviation: Inside a Carrier Flight Deck</h3>
+            <p class="card__excerpt">How fixed-wing and rotary operations are coordinated on a modern Indian Navy carrier deck.</p>
+            <a class="card__link" href="#">Read dispatch →</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="Exam Prep">
+          <div class="card__media">
+            <img src="images/article-agnipath.svg" alt="Illustration of a document with a flame motif representing the Agnipath scheme" width="400" height="250" loading="lazy">
+          </div>
+          <div class="card__body">
+            <p class="card__meta"><span class="tag">Exam Prep</span><span>DSP-005 · 7 min read</span></p>
+            <h3>Agnipath Scheme: What Aspirants Need to Know</h3>
+            <p class="card__excerpt">Eligibility, tenure, and the retention pathway explained plainly — with common myths cleared up.</p>
+            <a class="card__link" href="#">Read dispatch →</a>
+          </div>
+        </article>
+
+        <article class="card" data-category="Army">
+          <div class="card__media">
+            <img src="images/article-siachen.svg" alt="Illustration of a mountain ridge with a flag marker" width="400" height="250" loading="lazy">
+          </div>
+          <div class="card__body">
+            <p class="card__meta"><span class="tag">Army</span><span>DSP-006 · 6 min read</span></p>
+            <h3>Mountain Warfare: Lessons from the Siachen Front</h3>
+            <p class="card__excerpt">How extreme altitude reshaped equipment, logistics, and training doctrine over four decades.</p>
+            <a class="card__link" href="#">Read dispatch →</a>
+          </div>
+        </article>
+
+      </div>
+
+      <p id="noResults" class="footer-meta" style="display:none; margin-top:1.5rem;">No dispatches filed under this sector yet.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Sentinel Watch</strong> — a student project by Nim Deeki Sherpa.</p>
+      <p><a href="https://github.com/nimdeeki" target="_blank" rel="noopener">GitHub</a> · <a href="contact.html">Contact</a></p>
+      <p class="footer-meta">Built for the Developers Arena Web Development Internship — Week 4 Capstone Project.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

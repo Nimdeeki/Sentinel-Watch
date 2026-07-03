@@ -1,0 +1,15 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Exam paper with compass and checklist">
+<rect width="400" height="250" fill="#4A5233"/>
+<rect x="120" y="40" width="160" height="170" fill="#F2EEE1" stroke="#1C1F17" stroke-width="2"/>
+<line x1="140" y1="70" x2="260" y2="70" stroke="#5C6B63" stroke-width="3"/>
+<line x1="140" y1="90" x2="260" y2="90" stroke="#5C6B63" stroke-width="3"/>
+<line x1="140" y1="110" x2="230" y2="110" stroke="#5C6B63" stroke-width="3"/>
+<rect x="140" y="130" width="14" height="14" fill="none" stroke="#B23A24" stroke-width="2"/>
+<line x1="164" y1="137" x2="250" y2="137" stroke="#5C6B63" stroke-width="3"/>
+<rect x="140" y="155" width="14" height="14" fill="none" stroke="#B23A24" stroke-width="2"/>
+<line x1="164" y1="162" x2="240" y2="162" stroke="#5C6B63" stroke-width="3"/>
+<circle cx="80" cy="60" r="26" fill="none" stroke="#A99A6B" stroke-width="3"/>
+<line x1="80" y1="42" x2="80" y2="78" stroke="#A99A6B" stroke-width="2"/>
+<line x1="62" y1="60" x2="98" y2="60" stroke="#A99A6B" stroke-width="2"/>
+<polygon points="80,48 86,60 80,72 74,60" fill="#B23A24"/>
+</svg>
